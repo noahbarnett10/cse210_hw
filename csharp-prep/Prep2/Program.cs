@@ -30,7 +30,9 @@ class Program
         {
             letter = "F";
         }
+
         Console.WriteLine($"You have a {letter} for this course.");
+        
         if (percentage >= 70)
         {
             Console.WriteLine("You have passed the course.");
