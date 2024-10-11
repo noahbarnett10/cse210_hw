@@ -1,4 +1,0 @@
-
-Date: 2024-10-11
-Prompt: What was the most notable part of my day today?
-> figuring out this code 
