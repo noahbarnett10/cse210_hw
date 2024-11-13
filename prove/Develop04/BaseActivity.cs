@@ -9,7 +9,6 @@ class BaseActivity
     {
         _activityName = activityName;
         _activityDescription = activityDescription;
-        // _activityTime = activityTime;
     }
 
     public string WelcomeMessage()
