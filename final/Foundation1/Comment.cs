@@ -13,12 +13,9 @@ class Comment
 
     }
 
-
     public void DisplayComment()
     {
         Console.WriteLine($"{_commentName}: {_commentText}");
     }
     
-
-
 }
