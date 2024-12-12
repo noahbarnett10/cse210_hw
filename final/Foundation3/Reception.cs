@@ -11,7 +11,7 @@ class Reception : BaseEvent
 
     public string ReceptionMessage()
     {
-        return $"{StandardMessage()}\nPlease RSVP @ {_rsvpMessage}";
+        return $"\n{StandardMessage()}\nPlease RSVP @ {_rsvpMessage}";
     }
 
 

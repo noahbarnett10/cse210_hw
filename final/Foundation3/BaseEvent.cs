@@ -19,7 +19,7 @@ class BaseEvent
 
     public string StandardMessage()
     {
-        return $"\n{_eventTitle}\n{_eventDescription}\nDate: {_eventDate} @ {_eventTime}\n{_eventAddress.GetAddress()}";
+        return $"{_eventTitle}\n{_eventDescription}\nDate: {_eventDate} @ {_eventTime}\n{_eventAddress.GetAddress()}";
     }
 
     public string ShortMessage()

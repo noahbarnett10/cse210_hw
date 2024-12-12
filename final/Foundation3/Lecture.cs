@@ -14,6 +14,6 @@ class Lecture : BaseEvent
     public string LectureMessage()
     {
         
-        return $"{StandardMessage()}\nPresentation by {_speaker} for a crowd of {_capacity}";
+        return $"\n{StandardMessage()}\nPresentation by {_speaker} for a crowd of {_capacity}";
     }
 }

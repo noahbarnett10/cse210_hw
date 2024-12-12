@@ -11,6 +11,6 @@ class Outdoor : BaseEvent
 
     public string OutdoorMessage()
     {
-        return $"{StandardMessage()}\n{_weatherForecast}";
+        return $"\n{StandardMessage()}\n{_weatherForecast}";
     }
 }
